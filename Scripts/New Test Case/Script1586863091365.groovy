@@ -28,6 +28,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/New Folder/Page_IAD/inp
 
 WebUI.click(findTestObject('Object Repository/New Folder/Page_IAD/input_Mot de passe_submit'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/New Folder/Page_IAD/button_Dmarrer'))
 
 WebUI.closeBrowser()
